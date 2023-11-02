@@ -101,3 +101,19 @@ img{
     align-items: center;
     color: white;
 }
+.third-row {
+    margin-top: 20px;
+}
+.third-row .logo h4{
+    margin-bottom: 10px;
+}
+.third-row .logo .legal span{
+    margin-right: 10px;
+}
+.third-row .text {
+    margin-bottom: 10px;
+}
+.third-row .follow .social{
+    color: white;
+    text-decoration: none;
+}
