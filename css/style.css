@@ -108,19 +108,13 @@ header .first-row{
     width: 300px;
 }
 
-
-/**img{
-    height: 400px;
-    width: 300px;
-}**/
-
 .drawer{
    background-color:white;
    position: absolute;
    width: 25px;
    height: 25px;
    top: 10px;
-   left: 266px;
+   left: 276px;
    text-align: center;
    padding-top: 4px;
 }
