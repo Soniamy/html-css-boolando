@@ -19,7 +19,6 @@ header .first-row{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
 }
 .first-row .small a{
     color: white;
@@ -42,10 +41,79 @@ header .first-row{
     width: calc(100% / 3);
     position: relative;
 }
-img{
+#first-img{
+    background-image:url(../images/img/1.webp) ;
     height: 400px;
-    width: 290px;
+    width: 300px;
+    background-size: cover;
 }
+#first-img:hover{
+    background-image: url(../images/img/1b.webp);
+    height: 400px;
+    width: 300px;
+}
+#second-img{
+    background-image:url(../images/img/2.webp) ;
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+#second-img:hover{
+    background-image: url(../images/img/2b.webp);
+    height: 400px;
+    width: 300px;
+}
+#third-img{
+    background-image:url(../images/img/3.webp) ;
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+#third-img:hover{
+    background-image: url(../images/img/3b.webp);
+    height: 400px;
+    width: 300px;
+}
+#fourth-img{
+    background-image:url(../images/img/4.webp) ;
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+#fourth-img:hover{
+    background-image: url(../images/img/4b.webp);
+    height: 400px;
+    width: 300px;
+}
+#fifth-img{
+    background-image:url(../images/img/5.webp) ;
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+#fifth-img:hover{
+    background-image: url(../images/img/5b.webp);
+    height: 400px;
+    width: 300px;
+}
+#sixth-img{
+    background-image:url(../images/img/6.webp) ;
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+#sixth-img:hover{
+    background-image: url(../images/img/6b.webp);
+    height: 400px;
+    width: 300px;
+}
+
+
+/**img{
+    height: 400px;
+    width: 300px;
+}**/
+
 .drawer{
    background-color:white;
    position: absolute;
@@ -110,10 +178,11 @@ img{
 .third-row .logo .legal span{
     margin-right: 10px;
 }
-.third-row .text {
+.third-row .follow p {
     margin-bottom: 10px;
 }
-.third-row .follow .social{
+.third-row .follow .social i{
     color: white;
     text-decoration: none;
+    margin-right: 5px;
 }
